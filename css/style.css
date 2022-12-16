@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    height: 100%;
+}
+body{
+    background: rgb(17,10,1);
+    background: linear-gradient(180deg, rgba(17,10,1,1) 5%, rgba(233,169,31,1) 61%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.avatar{
+    text-align: center;
+    display: block;
+}
+.avatar img{
+    width: 80px;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow:  0 0 20px rgb(115, 115, 119);
+    margin-top:15px;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    margin: 10px 0 0 0px;
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 2px;
+}
+.social img{
+    width: 33px;
+}
+.social{
+    display: flex;
+    justify-content: space-around ;
+    list-style: none;
+    margin: 20px 0;
+}
+.caixa li{
+    background-color: rgb(246, 238, 238);
+    margin: 20px 10px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+}
+.caixa li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    color: rgba(233,169,31,1);
+    font-weight: bold;
+}
+.caixa li a span{
+    color: rgb(164, 159, 159);
+    display: block;
+    margin-top: 5px;
+}
+    
+    
+    
+
+   
+
+    
+    
+
+
+    
+    
+    
+    
+
+    
